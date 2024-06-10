@@ -28,10 +28,9 @@ umrah_db = FAISS.load_local("./umrah_db", embeddings, allow_dangerous_deserializ
 
 #HUGGINGFACEHUB_API_TOKEN = getpass()
 
-#os.environ["HUGGINGFACEHUB_API_TOKEN"] = HUGGINGFACEHUB_API_TOKEN
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = # "YOUR TOKEN HERE"
 #################################3
-#os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+
 repo_id = "mistralai/Mistral-7B-Instruct-v0.1"
 llm = HuggingFaceEndpoint(
     repo_id=repo_id, max_length=128, temperature=0.2)
