@@ -1,4 +1,4 @@
-# Umrah Guide
+# Umrah Guide [Hawaar al-Zaki]
 
 ## Table of contents
 * [Introduction](#introduction)
